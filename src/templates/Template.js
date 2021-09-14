@@ -1,6 +1,6 @@
 import getData from "@utils/getData.js";
 import github from "@images/github.png";
-import twitter from "@images/twitter.png";
+import linkedin from "@images/linkedin.png";
 
 const Template = async () => {
   const data = await getData();
@@ -25,8 +25,8 @@ const Template = async () => {
           </ul>
         </div>
         <div class="card_social">
-          <a href="https://twitter.com/alejotaliento">
-            <img src="${twitter}" />
+          <a href="https://www.linkedin.com/in/alejo-taliento/">
+            <img src="${linkedin}" />
           </a>
           <a href="https://github.com/alejotaliento">
             <img src="${github}" />
